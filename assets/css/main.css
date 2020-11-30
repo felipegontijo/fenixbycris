@@ -1037,6 +1037,7 @@ button:disabled,
   #footer {
     bottom: 3.5em;
     left: 3.5em;
+    padding-right: inherit;
   }
 }
 
@@ -1044,6 +1045,7 @@ button:disabled,
   #footer {
     bottom: 2em;
     left: 2em;
+    padding: 0;
   }
 }
 
@@ -1051,6 +1053,7 @@ button:disabled,
   #footer {
     bottom: 1.25em;
     left: 1.25em;
+    padding: 0;
   }
 }
 
@@ -1060,6 +1063,7 @@ button:disabled,
     left: auto;
     margin: 1em 0 0 0;
     position: relative;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

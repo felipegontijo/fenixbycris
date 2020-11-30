@@ -51,16 +51,19 @@
 		@include breakpoint('<=xlarge') {
 			bottom: 3.5em;
 			left: 3.5em;
+			padding-right: inherit;
 		}
 
 		@include breakpoint('<=small') {
 			bottom: 2em;
 			left: 2em;
+			padding: 0;
 		}
 
 		@include breakpoint('<=xxsmall') {
 			bottom: 1.25em;
 			left: 1.25em;
+			padding: 0;
 		}
 
 		@include breakpoint('short') {
@@ -68,5 +71,6 @@
 			left: auto;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 			position: relative;
+			padding: 0;
 		}
 	}
